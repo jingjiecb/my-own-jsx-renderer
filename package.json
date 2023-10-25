@@ -4,8 +4,16 @@
   "description": "Claws's nodejs package to learn jsx following the guide: https://jasonformat.com/wtf-is-jsx/",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
+    "start": "node dist/hello.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@claws",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15"
+  }
 }
