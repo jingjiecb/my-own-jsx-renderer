@@ -1,0 +1,11 @@
+{
+  "name": "learnjsx",
+  "version": "1.0.0",
+  "description": "Claws's nodejs package to learn jsx following the guide: https://jasonformat.com/wtf-is-jsx/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@claws",
+  "license": "ISC"
+}
